@@ -37,26 +37,36 @@
         margin: 0;
         color: #8554D4;
       }
-
+      
       .navbar {
-            background: #000000;
-            padding: 15px 40px;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            color: #FFFFFF;
+        background: #000000;
+        padding: 15px 40px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: #FFFFFF;
+        font-weight: bold;
+      }
+      
+      .navbar a {
+        color: #FFFFFF;
+        text-decoration: none;
+        margin-left: 20px;
+      }
+      
+      .navbar a:hover,
+      .navbar a.active {
+        color: #8554D4;
+      }
+      
+      a {
+            color: #8554D4;
+            text-decoration: none;
             font-weight: bold;
         }
 
-        .navbar a {
-            color: #FFFFFF;
-            text-decoration: none;
-            margin-left: 20px;
-        }
-
-        .navbar a:hover,
-        .navbar a.active {
-            color: #8554D4;
+        a:hover {
+            text-decoration: underline;
         }
 
       .projects-container {
