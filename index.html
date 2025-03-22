@@ -24,6 +24,12 @@
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
       }
 
+      @media screen and (max-width: 768px) {
+        .project-box {
+          width: 90%;  /* Make project boxes take up more width on smaller screens */
+        }
+      }
+
       .Kalnia {
         font-family: 'Kalnia', serif;
         font-size: 6em;
@@ -47,7 +53,7 @@
         text-decoration: none;
         margin-left: 20px;
         font-size: 1.1em;
-        padding: 10px;
+        padding: 8px 20px;
         transition: color 0.3s ease;
       }
 
@@ -72,6 +78,7 @@
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         width: 75%;
         margin: 0 auto;
+        text-align: center; /* Center text within the box */
       }
 
       .project-box:hover {
@@ -80,17 +87,18 @@
       }
 
       .project-box img {
-        width: 70%;
+        width: 80%;  /* Adjust image size to better fit the container */
         height: auto;
         border-radius: 8px;
-        margin: 0 auto;
         display: block;
+        margin: 0 auto;
       }
 
       .project-title {
         font-size: 1.6em;
         font-weight: bold;
         color: #8554D4;
+        margin-top: 10px;
       }
 
       .project-description {
